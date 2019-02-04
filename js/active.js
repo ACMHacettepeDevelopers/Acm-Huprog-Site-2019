@@ -67,6 +67,12 @@
         });
     }
 
+    if ($.fn.homepage) {
+    browserWindow.scrollUp({
+        scrollSpeed: 1500,
+    });
+    }
+
     // :: 7.0 CouterUp Active Code
     if ($.fn.counterUp) {
         $('.counter').counterUp({

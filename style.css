@@ -16,7 +16,9 @@
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
-  font-weight: 400; }
+  font-weight: 400;
+  background-color: #08010C;
+  color: white; }
 
 h1,
 h2,
@@ -24,13 +26,13 @@ h3,
 h4,
 h5,
 h6 {
-  color: rgba(0, 0, 0, 0.8);
+  color: #7E7782;
   line-height: 1.3;
   font-weight: 700; }
 
 p {
   font-family: "Raleway", sans-serif;
-  color: #5a5a5a;
+  color: rgba(0, 0, 0, 0.9);
   font-size: 14px;
   line-height: 1.8;
   font-weight: 400; }
@@ -141,7 +143,7 @@ img {
 
 /* Preloader */
 #preloader {
-  background-color: #f7f7f7;
+  background-color: #08010C;
   width: 100%;
   height: 100%;
   position: fixed;
@@ -162,7 +164,7 @@ img {
   #preloader .spinner {
     width: 40px;
     height: 40px;
-    background-color: #3762f0;
+    background-color: #9d14e6;
     margin: auto;
     -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
     animation: sk-rotateplane 1.2s infinite ease-in-out; }
@@ -299,7 +301,7 @@ textarea:focus {
 
 /* ScrollUp */
 #scrollUp {
-  background-color: #3762f0;
+  background-color: #9d14e6;
   border-radius: 0;
   bottom: 60px;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
@@ -314,7 +316,7 @@ textarea:focus {
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms; }
   #scrollUp:hover {
-    background-color: #2c56df; }
+    background-color: #830fc1; }
   @media only screen and (max-width: 767px) {
     #scrollUp {
       bottom: 30px;
@@ -325,7 +327,7 @@ textarea:focus {
   display: inline-block;
   min-width: 160px;
   height: 40px;
-  background-color: #3762f0;
+  background-color: #9d14e6;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -342,7 +344,7 @@ textarea:focus {
     font-size: 14px;
     font-weight: 600;
     color: #ffffff;
-    background-color: #2c56df; }
+    background-color: #830fc1; }
   .clever-btn.btn-2 {
     background-color: transparent;
     border: 1px solid #ebebeb;
@@ -433,13 +435,13 @@ textarea:focus {
   .clever-main-menu .classy-navbar {
     height: 80px; }
   .clever-main-menu .classynav ul li a {
-    color: rgba(0, 0, 0, 0.45);
+    color: #7E7782;
     font-weight: 600; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .clever-main-menu .classynav ul li a {
         padding: 0 8px; } }
     .clever-main-menu .classynav ul li a:hover, .clever-main-menu .classynav ul li a:focus {
-      color: rgba(0, 0, 0, 0.8); }
+      color: rgba(255, 255, 255, 0.98); }
   .clever-main-menu .search-area {
     position: relative;
     z-index: 1; }
@@ -573,7 +575,7 @@ textarea:focus {
   position: relative;
   z-index: 1;
   padding: 30px;
-  border: 1px solid #ebebeb;
+  border: 1px solid #7E7782;
   border-radius: 6px; }
   .single-cool-facts-area img {
     display: block;
@@ -581,11 +583,11 @@ textarea:focus {
   .single-cool-facts-area h2 {
     font-size: 36px;
     margin-bottom: 5px;
-    color: #3762f0; }
+    color: #9d14e6; }
   .single-cool-facts-area h5 {
     margin-bottom: 0;
     font-size: 18px;
-    color: rgba(0, 0, 0, 0.8); }
+    color: #7E7782; }
 
 /* :: 7.0 Courses Area */
 .popular-courses-area {
@@ -598,11 +600,14 @@ textarea:focus {
   z-index: 1;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
   border-radius: 6px;
-  background-color: #ffffff; }
+  background-color: #7E7782; }
   .single-popular-course img {
     display: block;
     width: 100%;
     border-radius: 6px 6px 0 0; }
+  .single-popular-course h4 {
+    color: rgb(0, 0, 0, 0.9);
+  }
   .single-popular-course .course-content {
     padding: 25px; }
     .single-popular-course .course-content h4 {
@@ -610,11 +615,11 @@ textarea:focus {
     .single-popular-course .course-content .meta {
       margin-bottom: 15px; }
       .single-popular-course .course-content .meta span {
-        color: rgba(0, 0, 0, 0.4);
+        color: rgba(0, 0, 0, 1);
         font-size: 5px;
         margin-right: 10px; }
       .single-popular-course .course-content .meta a {
-        color: rgba(0, 0, 0, 0.4);
+        color: rgba(0, 0, 0, 1);
         display: inline-block;
         font-size: 14px;
         font-weight: 400;
@@ -1350,7 +1355,8 @@ textarea:focus {
         width: 100%; } }
     .register-now .register-now-countdown h3 {
       font-size: 30px;
-      margin-bottom: 15px; }
+      margin-bottom: 15px;
+      color: #fff; }
     .register-now .register-now-countdown p {
       margin-bottom: 0; }
     .register-now .register-now-countdown .register-countdown {
@@ -1369,7 +1375,7 @@ textarea:focus {
       margin-right: 12px;
       font-size: 36px;
       font-weight: 700;
-      color: #3762f0; }
+      color: #9d14e6; }
       .register-now .register-now-countdown .events-cd div span {
         margin-top: 0;
         color: rgba(255, 255, 255, 0.7);
@@ -1414,7 +1420,7 @@ textarea:focus {
   .single-tutors-slides .tutor-thumbnail {
     width: 165px;
     height: 165px;
-    background-color: #000;
+    background-color: #7E7782;
     border-radius: 6px;
     margin: 0 auto 40px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.15); }
@@ -1426,7 +1432,7 @@ textarea:focus {
     position: relative;
     z-index: 1;
     padding: 20px 30px;
-    background-color: #f7f7f7;
+    background-color: #7E7782;
     border-radius: 6px; }
     .single-tutors-slides .tutor-information::after {
       position: absolute;
@@ -1434,16 +1440,17 @@ textarea:focus {
       height: 0;
       border-left: 10px solid transparent;
       border-right: 10px solid transparent;
-      border-bottom: 15px solid #f7f7f7;
+      border-bottom: 15px solid #7E7782;
       content: '';
       top: -14px;
       left: 49%; }
     .single-tutors-slides .tutor-information h5 {
       font-size: 18px;
-      margin-bottom: 5px; }
+      margin-bottom: 5px;
+      color: rgba(0, 0, 0, 0.9); }
     .single-tutors-slides .tutor-information span {
       font-size: 14px;
-      color: rgba(0, 0, 0, 0.4);
+      color: rgba(0, 0, 0, 0.67);
       margin-bottom: 20px;
       display: block; }
     .single-tutors-slides .tutor-information p {
@@ -1462,7 +1469,7 @@ textarea:focus {
   position: absolute;
   width: 40px;
   top: 62.5px;
-  background-color: transparent;
+  background-color: #9d14e6;
   height: 40px;
   text-align: center;
   color: #cccccc;
@@ -1474,7 +1481,7 @@ textarea:focus {
   transition-duration: 500ms; }
   .tutors-slide .owl-prev:hover,
   .tutors-slide .owl-next:hover {
-    background-color: #2c56df;
+    background-color: #830fc1;
     color: #ffffff; }
 .tutors-slide .owl-next {
   left: auto;
@@ -1490,7 +1497,8 @@ textarea:focus {
   z-index: 1;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
   border-radius: 6px;
-  background-color: white; }
+  background-color: #7E7782;
+  color: rgb(0, 0, 0, 0.9); }
   .single-blog-area img {
     display: block;
     width: 100%;
@@ -1503,9 +1511,10 @@ textarea:focus {
         margin-bottom: 5px;
         margin-left: -1px;
         -webkit-transition-duration: 500ms;
-        transition-duration: 500ms; }
+        transition-duration: 500ms;
+        color: rgb(0, 0, 0, 0.9); }
         .single-blog-area .blog-content .blog-headline h4:hover, .single-blog-area .blog-content .blog-headline h4:focus {
-          color: #2c56df; }
+          color: #9d14e6; }
     .single-blog-area .blog-content .meta {
       margin-bottom: 15px; }
       .single-blog-area .blog-content .meta span {
@@ -1875,13 +1884,13 @@ textarea:focus {
 .top-footer-area {
   position: relative;
   z-index: 1;
-  background-color: #252525;
+  background: repeating-linear-gradient(45deg, #08010C, #08010C 3px, #100219 3px, #100219 6px);
   padding: 40px 0;
   text-align: center;
   border-bottom: 1px solid #4c4c4c; }
   .top-footer-area .footer-logo {
     display: block;
-    margin-bottom: 15px; }
+    margin-bottom: 5px; }
   .top-footer-area p {
     margin-bottom: 0;
     font-size: 12px;
@@ -1899,7 +1908,7 @@ textarea:focus {
   z-index: 1;
   width: 100%;
   height: 40px;
-  background-color: #1f1f1f; }
+  background-color: #0b0111; }
   @media only screen and (max-width: 767px) {
     .bottom-footer-area {
       -ms-flex-wrap: wrap;

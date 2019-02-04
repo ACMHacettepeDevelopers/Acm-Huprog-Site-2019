@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- This theme customized by Batu Berk.
+ -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="">
@@ -12,7 +15,7 @@
     <title>HUPROG'19</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="icon" href="img/core-img/favicon.jpg">
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
@@ -32,7 +35,7 @@
         <div class="clever-main-menu">
             <div class="classy-nav-container breakpoint-off">
                 <!-- Menu -->
-                <nav class="classy-navbar justify-content-between" id="cleverNav">
+                <nav class="classy-navbar justify-content-between" id="cleverNav" style="background-color: #08010C">
 
                     <!-- Logo -->
                     <a class="nav-brand" href="index.html"><img src="img/core-img/logo.png" alt=""></a>
@@ -52,14 +55,14 @@
 
                         <!-- Nav Start -->
                         <div class="classynav">
-                            <ul>
-                                <li><a href="index.html">ANA SAYFA</a></li>
-                                <li><a href="#">HAKKINDA</a>
-                                </li>
-                                <li><a href="courses.html">ÖDÜLLER</a></li>
-                                <li><a href="instructors.html">HUPROG'18</a></li>
-                                <li><a href="blog.html">SPONSORLAR</a></li>
-                                <li><a href="contact.html">İLETİŞİM</a></li>
+                            <ul class="smooth-scroll">
+                                <li><a id="homepage" href="#top">ANA SAYFA</a></li>
+                                <li><a href="#oduller">ÖDÜLLER</a></li>
+                                <li><a href="#hakkinda">HAKKINDA</a></li>
+                                <li><a href="#sponsorlar">SPONSORLAR</a></li>
+                                <li><a href="#kurallarvedetaylar">KURALLAR VE DETAYLAR</a></li>
+                                <li><a href="#huprog18">HUPROG'18</a></li>
+                                <li><a href="#iletisim">İLETİŞİM</a></li>
                             </ul>
 
                         </div>
@@ -88,7 +91,7 @@
     <!-- ##### Hero Area End ##### -->
 
     <!-- ##### Cool Facts Area Start ##### -->
-    <section class="cool-facts-area section-padding-100-0">
+    <section class="cool-facts-area section-padding-100-0" id="oduller">
         <div class="container">
             <div class="row">
                 <!-- Single Cool Facts Area -->
@@ -130,7 +133,7 @@
     <!-- ##### Cool Facts Area End ##### -->
 
     <!-- ##### Popular Courses Start ##### -->
-    <section class="popular-courses-area section-padding-100-0" style="background-image: url(img/core-img/texture.png);">
+    <section class="popular-courses-area section-padding-100-0" style="background: repeating-linear-gradient(45deg, #08010C, #08010C 3px, #100219 3px, #100219 6px);" id="hakkinda">
         <div class="container">
             
 
@@ -176,7 +179,7 @@
     <!-- ##### Popular Courses End ##### -->
 
     <!-- ##### Best Tutors Start ##### -->
-    <section class="best-tutors-area section-padding-100">
+    <section class="best-tutors-area section-padding-100" id="sponsorlar">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -311,7 +314,7 @@
     <!-- ##### Best Tutors End ##### -->
 
         <!-- ##### Blog Area Start ##### -->
-    <section class="blog-area section-padding-100-0" style="background-image: url(img/core-img/texture.png);">
+    <section class="blog-area section-padding-100-0" style="background: repeating-linear-gradient(45deg, #08010C, #08010C 3px, #100219 3px, #100219 6px);" id="kurallarvedetaylar">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -327,10 +330,9 @@
                     <div class="single-blog-area mb-100 wow fadeInUp" data-wow-delay="250ms">
                         <!-- Blog Content -->
                         <div class="blog-content">
-                            <a href="kurallar.html" class="blog-headline">
+                                <a href="kurallar.html" class="blog-headline">
                                 <h4>KURALLAR</h4>
-                            </a>
-
+                                </a>
                             <p>Yarışmadan önce ve yarışma süresince bulunan tüm kuralları buradan görebilirsiniz</p>
                         </div>
                     </div>
@@ -354,7 +356,7 @@
     <!-- ##### Blog Area End ##### -->
 
     <!-- ##### Upcoming Events Start ##### -->
-    <section class="upcoming-events section-padding-100-0">
+    <section class="upcoming-events section-padding-100-0" style="padding-top: 40px" id="huprog18">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -400,7 +402,7 @@
     <!-- ##### Upcoming Events End ##### -->
 
     <!-- ##### Register Now Start ##### -->
-    <section class="register-now section-padding-100-0 d-flex justify-content-between align-items-center" style="background-image: url(img/core-img/texture.png); padding-bottom: 2%;">
+    <section class="register-now section-padding-100-0 d-flex justify-content-between align-items-center" style="background: repeating-linear-gradient(45deg, #08010C, #08010C 3px, #100219 3px, #100219 6px); padding-bottom: 2%;" id="iletisim">
         <!-- Register Contact Form -->
                 <div class="col-12 col-lg-6">
                     <div class="contact-form">
@@ -436,7 +438,7 @@
             <h3>Çok Az Kaldı</h3>
             <!-- Register Countdown -->
             <div class="register-countdown">
-                <div class="events-cd d-flex flex-wrap" data-countdown="2019/02/03"></div>
+                <div class="events-cd d-flex flex-wrap" data-countdown="2019/05/15"></div>
             </div>
         </div>
     </section>
@@ -445,18 +447,15 @@
     <!-- ##### Footer Area Start ##### -->
     <footer class="footer-area">
         <!-- Top Footer Area -->
-        <div class="top-footer-area">
+        <div class="top-footer-area" style="padding-top: 20px; padding-bottom: 20px">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <!-- Footer Logo -->
                         <div class="footer-logo">
-                            <a href="index.html"><img src="img/core-img/logo2.png" alt=""></a>
+                            <a href="index.html"><img src="img/core-img/logo.png" alt=""></a>
                         </div>
                         <!-- Copywrite -->
-                        <p><a href="#"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                     </div>
                 </div>
             </div>
@@ -465,16 +464,13 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <!-- Bottom Footer Area -->
         <div class="bottom-footer-area d-flex justify-content-between align-items-center">
             <!-- Contact Info -->
-            <div class="contact-info">
-                <a href="#"><span>Phone:</span> +44 300 303 0266</a>
-                <a href="#"><span>Email:</span> info@clever.com</a>
-            </div>
+
             <!-- Follow Us -->
             <div class="follow-us">
-                <span>Follow us</span>
-                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <span>Bizi Takip Edin</span>
+                <a href="https://www.facebook.com/acmhacettepe/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/acmhacettepe"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/acmhacettepe"><i class="fa fa-twitter" aria-hidden="true"></i></a>
             </div>
         </div>
     </footer>
