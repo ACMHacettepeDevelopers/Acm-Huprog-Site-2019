@@ -577,6 +577,17 @@ textarea:focus {
       -ms-flex-pack: center;
       justify-content: center; } }
 
+.hero-logo {
+  width: 250px;
+  height: 250px;
+}
+@media only screen and (max-width: 767px) {
+  .hero-logo {
+    width: 120px;
+    height: 120px;
+  }
+}
+
 /* :: 5.0 Hero Area */
 .hero-area {
   position: relative;
