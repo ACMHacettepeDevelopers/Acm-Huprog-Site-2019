@@ -226,28 +226,37 @@
             <div class="row">
                 <!-- Single Blog Area -->
                 <div class="col-12 col-md-6">
-                    <a href="./kurallar.html" class="blog-headline">
                     <div class="single-blog-area mb-100 wow fadeInUp" data-wow-delay="250ms">
                         <!-- Blog Content -->
                         <div class="blog-content">
                                 <h4 style="color: #9d14e6">KURALLAR</h4>
-                            <p>Yarışmadan önce ve yarışma süresince bulunan tüm kuralları buradan görebilirsiniz</p>
+                            <p>-Hem ön eleme hem de final etabında kendi takımınızın dışındaki herhangi birinden yardım almak kesinlikle yasaktır. <br>
+                            -Yarışma sırasında kendi kodlarını paylaşan takımlar ve bu kodları kullanan takımlar diskalifiye edilecektir.<br>
+                            -Takımlar en az 1 en fazla 3 kişiden oluşmalıdır. <br>
+                            -Yarışma sırasında internet vb. araçların kullanımında herhangi bir kısıtlama yoktur. <br>
+                            -Yarışmanın final etabına yarışmacıların kendi bilgisayarlarını getirmeleri gerekmektedir. <br>
+                            Yarışmaya katılan kişilerin Türkiye'deki herhangi bir Üniversitede lisans veya ön lisans programlarından birinde eğitim görüyor olmaları gerekmektedir. <br>
+                            -Final etabında yarışacak takımların, etkinlik anında fiziksel olarak etkinlik alanında bulunmaları gerekmektedir.</p>
                         </div>
                     </div>
-                    </a>
                 </div>
 
                 <!-- Single Blog Area -->
                 <div class="col-12 col-md-6">
-                    <a href="./detaylar.html"class="blog-headline">
                     <div class="single-blog-area mb-100 wow fadeInUp" data-wow-delay="500ms">
                         <!-- Blog Content -->
                         <div class="blog-content">
-                                <h4 style="color: #9d14e6">DETAYLAR</h4>
-                            <p>Yarışmanın detaylarını buradan görebilirsiniz</p>
+                            <h4 style="color: #9d14e6">DETAYLAR</h4>
+                            <p>-Başvurularımız 21/03/2019 Cuma Saat: 23:59’a kadar devam etmektedir. <br>
+                                -Ön eleme 22 Mart'ta online ortamda gerçekleşecek ve 24 saat sürecektir. <br>
+                                -Ön eleme saat 17:00'da başlayacaktır. <br>
+                                -Ön elemede ilk 15'e giren takımlar yarışmamızın final ayağına Hacettepe Teknokent'e davet edilecektir. <br>
+                                -Final, 6 Nisan'da Hacettepe Teknokent'te gerçekleştirilecek ve 16 saat sürecektir.<br>
+                                -Final etkinliği 16:00'da başlayacak olup yarışma 17:00'da başlayacaktır.  <br>
+                                -Katılımcılar 30'un üzerinde farklı programlama dilinden istediklerini kullanabileceklerdir. <br>
+                                -Yarışma sonunda ilk üçe giren takımlara ödülleri verilecektir.</p>
                         </div>
                     </div>
-                  </a>
                 </div>
 
             </div>
